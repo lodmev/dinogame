@@ -1,0 +1,20 @@
+
+.image-container {
+	position: relative;
+	max-width: 600px;
+	margin: auto;
+}
+.dino-image {
+	opacity: 0;
+	transition: opacity, ease-in-out, 0.5s;
+}
+.dino-image.showed {
+	opacity: 1;
+}
+.letter-value {
+	cursor: pointer;
+	transition: transform, ease-out, 0.5s;
+}
+.letter-value:hover {
+	transform: scale(2);
+}
